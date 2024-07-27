@@ -1,0 +1,114 @@
+package wtf.Wh3L1nuxXaa.transformers.zavet;
+
+import wtf.Wh3L1nuxXaa.Library;
+
+public class ZavetTransformer {
+    public static boolean checkClass1(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.BossBarEvent") == true) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean checkClass2(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.ClearTitle") == true) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean checkClass3(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.EncryptionRequestEvent") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass4(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.KickEvent") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass5(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.ServerDataInfo") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass6(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.StatusRequestEvent") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass7(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.ChatProtocol") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass8(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.packet.Trigger") == true) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean checkClass9(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.packet.HotSwapper") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass10(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.packet.bytecode.AccessFlag") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass11(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.packet.bytecode.Bytecode") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass12(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.packet.bytecode.ClassFile") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass13(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.packet.bytecode.CodeIterator") == true) {
+            return true;
+        }
+        return false;
+    }
+    public static boolean checkClass14(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.protocol.packet.bytecode.ConstPool") == true) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean checkClass15(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.api.ChatMessageColor") == true) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean checkClass16(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.api.TextChatComponent") == true) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean checkClass17(String pluginFile) {
+        if (Library.classFileExistsInJar(pluginFile, "net.md_5.bungee.api.ClickEvent") == true) {
+            return true;
+        }
+        return false;
+    }
+}
