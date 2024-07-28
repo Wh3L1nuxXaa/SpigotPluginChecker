@@ -5,4 +5,5 @@ finds backdoors such as:
 AntiHackBackdoor
 Ectasy(forceop)
 ThiccIndustriesBackdoor
+ProjectX(thicc copy)
 ZavetBackdoor(thicc rework)
